@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="016eb9dc-d355-4fdf-ae85-58cd727a5e67" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ShaderLearn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ShaderLearn/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01-矩阵/Transformation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01-矩阵/Transformation.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/01-矩阵/TransformationGrid.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01-矩阵/TransformationGrid.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -11,6 +13,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3941d6bc191846259172183418fc6c1c13be00/5a/cd31b568/Matrix4x4.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3941d6bc191846259172183418fc6c1c13be00/d9/b8087f0e/Mathf.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="23DSLCfvBUxNmKhNuHTa5cCSp2y" />
   <component name="ProjectLevelVcsManager">
@@ -22,6 +29,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34987277" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.43956742" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -41,10 +50,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="9455">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="9455" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -64,6 +73,8 @@
       <option name="presentableId" value="Default" />
       <updated>1641267108564</updated>
       <workItem from="1641267122558" duration="1061000" />
+      <workItem from="1641276889356" duration="20000" />
+      <workItem from="1641609356809" duration="3668000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1641267149371</created>
@@ -72,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641267149371</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="矩阵">
+      <created>1641276900682</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1641276900682</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
@@ -88,6 +106,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -95,6 +114,44 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="矩阵" />
+    <option name="LAST_COMMIT_MESSAGE" value="矩阵" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/01-矩阵/PositionTransformation.cs</url>
+          <line>15</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/01-矩阵/PositionTransformation.cs" initialLine="15" containingFunctionPresentation="property 'Matrix'">
+            <startOffsets>
+              <option value="410" />
+            </startOffsets>
+            <endOffsets>
+              <option value="424" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/01-矩阵/TransformationGrid.cs</url>
+          <line>79</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/01-矩阵/TransformationGrid.cs" initialLine="79" containingFunctionPresentation="method 'TransformPoint'">
+            <startOffsets>
+              <option value="2656" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2675" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="UNITY_DEBUG_RUN_CONFIGURATION">
+        <watch expression="Matrix * Vector4.one" language="C#" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

@@ -9,6 +9,7 @@ namespace _01_矩阵
         public Transform Prefab;
         public int GridResolution = 10;
         private Transform[] grid;
+        private List<Transformation> transformations = new List<Transformation>();
 
         void Start()
         {
@@ -46,6 +47,37 @@ namespace _01_矩阵
         // Update is called once per frame
         void Update()
         {
+            UpdateTransformation();
+            for (int i = 0, index = 0; i < GridResolution; i++)
+            {
+                for (int j = 0; j < GridResolution; j++)
+                {
+                    for (int k = 0; k < GridResolution; k++, index++)
+                    {
+                        grid[index].localPosition = TransformPoint(i, j, k);
+                    }
+                }
+            }
+        }
+
+        private Matrix4x4 transformationMat;
+        
+        private void UpdateTransformation()
+        {
+            GetComponents(transformations);
+            transformationMat = Matrix4x4.identity;
+            foreach (var transformation in transformations)
+            {
+                transformationMat = transformation.Matrix * transformationMat;
+            }
+        }
+
+        private Vector3 TransformPoint(int x, int y, int z)
+        {
+            var coordinates = GetCoordinates(x, y, z);
+            coordinates = transformationMat.MultiplyPoint(coordinates);
+            //coordinates = transformationMat * coordinates;
+            return coordinates;
         }
     }
 }
