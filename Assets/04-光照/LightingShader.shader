@@ -4,8 +4,8 @@ Shader "Custom/LightingShader"
     {
         _Tint ("颜色", Color) = (1,1,1,1)
         _MainTex ("贴图", 2D) = "white" {}
+        _Metallic ("金属度", Range(0,1)) = 0
         _Smoothness ("光滑度", Range(0,1)) = 0.5
-        _SpecularTint ("高光颜色", Color) = (1,1,1,1)
     }
     
     SubShader
@@ -29,7 +29,7 @@ Shader "Custom/LightingShader"
             sampler2D _MainTex;
             float4 _MainTex_ST;
             float _Smoothness;
-            fixed4 _SpecularTint;
+            fixed4 _Metallic;
 
             struct VertexData
             {
@@ -68,10 +68,16 @@ Shader "Custom/LightingShader"
                 float3 lightDir = _WorldSpaceLightPos0;
                 fixed3 lightColor = _LightColor0;
                 float3 albedo = tex2D(_MainTex, input.uv) * _Tint;
+                float3 specularTint = albedo * _Metallic;
+                float oneMinusReflectivity = 1 - _Metallic;
+                albedo *= oneMinusReflectivity;
+
+                float3 diffuse = albedo * lightColor * DotClamped(lightDir, input.normal);
+                
                 float3 viewDir = normalize(_WorldSpaceCameraPos - input.worldPos);
                 float3 reflectionDir = reflect(-lightDir, input.normal);
                 reflectionDir = normalize(lightDir + viewDir);
-                return pow(DotClamped(input.normal, reflectionDir), _Smoothness * 100) * _SpecularTint;
+                return pow(DotClamped(input.normal, reflectionDir), _Smoothness * 100);
                 return float4(DotClamped(lightDir, input.normal) * lightColor * albedo,1);
             }
             
