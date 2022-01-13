@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="016eb9dc-d355-4fdf-ae85-58cd727a5e67" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ShaderLearn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ShaderLearn/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/04-光照.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/04-光照/LightingShader.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/LightingShader.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/04-光照/LightingShader.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/LightingShader.shader.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+    <list default="true" id="016eb9dc-d355-4fdf-ae85-58cd727a5e67" name="Changes" comment="修改一下文件夹结构">
+      <change beforePath="$PROJECT_DIR$/Assets/Mesh/01-生成网格/s1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mesh/01-生成网格/s1.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +18,7 @@
     <setting file="mock:///Users/symj/Documents/unity_project/ShaderLearn/Assets/04-光照/LightingShader.shader" root0="SKIP_HIGHLIGHTING" />
     <setting file="file:///Applications/Unity/Hub/Editor/2020.3.22f1c1/Unity.app/Contents/CGIncludes/AutoLight.cginc" root0="SKIP_HIGHLIGHTING" />
     <setting file="file:///Applications/Unity/Hub/Editor/2020.3.22f1c1/Unity.app/Contents/CGIncludes/UnityPBSLighting.cginc" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/symj/Documents/unity_project/ShaderLearn/Assets/04-光照.meta" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="23DSLCfvBUxNmKhNuHTa5cCSp2y" />
   <component name="ProjectLevelVcsManager">
@@ -54,10 +51,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="2040">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="2040" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -79,7 +76,7 @@
       <workItem from="1641267122558" duration="1061000" />
       <workItem from="1641276889356" duration="20000" />
       <workItem from="1641609356809" duration="3668000" />
-      <workItem from="1641783835386" duration="6142000" />
+      <workItem from="1641783835386" duration="12233000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1641267149371</created>
@@ -102,7 +99,21 @@
       <option name="project" value="LOCAL" />
       <updated>1641784607491</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="多灯光 、、开始看不懂了">
+      <created>1641808432582</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1641808432582</updated>
+    </task>
+    <task id="LOCAL-00005" summary="修改一下文件夹结构">
+      <created>1641869649518</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1641869649518</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
@@ -128,7 +139,9 @@
     <MESSAGE value="init" />
     <MESSAGE value="矩阵" />
     <MESSAGE value="光照" />
-    <option name="LAST_COMMIT_MESSAGE" value="光照" />
+    <MESSAGE value="多灯光 、、开始看不懂了" />
+    <MESSAGE value="修改一下文件夹结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改一下文件夹结构" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -158,6 +171,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Mesh/01-生成网格/Grid.cs</url>
+          <line>31</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Mesh/01-生成网格/Grid.cs" initialLine="31" containingFunctionPresentation="method 'OnDrawGizmos'">
+            <startOffsets>
+              <option value="762" />
+            </startOffsets>
+            <endOffsets>
+              <option value="792" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
