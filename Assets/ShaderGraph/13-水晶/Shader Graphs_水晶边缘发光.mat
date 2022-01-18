@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: "Shader Graphs_\u77F3\u5316"
-  m_Shader: {fileID: -6465566751694194690, guid: 77475f75b1b514a65b7ccbc65209f9c9, type: 3}
+  m_Name: "Shader Graphs_\u6C34\u6676\u8FB9\u7F18\u53D1\u5149"
+  m_Shader: {fileID: -6465566751694194690, guid: 1ded5b156dd8b4797ab38e387d863b1c, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -20,19 +20,15 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_54363e0c35754ca784d3616a04232ce2:
-        m_Texture: {fileID: 2800000, guid: 2da4b277e55414e498e12ef6bc54ee29, type: 3}
+        m_Texture: {fileID: 2800000, guid: 17f276ca0f06a0843b06c24bcd4ce3cc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_552a42c6697943a6b6105101e17ce83b:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - Texture2D_7457999260464db395b44f48c05da29a:
-        m_Texture: {fileID: 2800000, guid: 0e28fe2f62ca5451bbeb1e7580e429ae, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5f85700e0435ac846974df04322ee949, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_c053a4f5a14e400ca4e1a4bfad55207b:
-        m_Texture: {fileID: 2800000, guid: 39c790ced3e137243bff34375839baa9, type: 3}
+        m_Texture: {fileID: 2800000, guid: 95f62d5b1713c9f42b8cd2eb0325cfcb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_feef6e2845e647ccb41a2dd9c456650f:
@@ -52,7 +48,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_e33c24aace794ae29eecb0db1eea5c43: 0
+    - Vector1_13fec335204846a78fa992a019bbac8b: 2.73
     m_Colors:
     - Color_6217cfdb8f644647b9cc3294039a9761: {r: 1, g: 1, b: 1, a: 1}
+    - Color_c7ac1da7ed85440db1c66b66bc556c88: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
