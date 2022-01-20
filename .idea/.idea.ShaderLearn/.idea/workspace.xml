@@ -21,15 +21,12 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3941d6bc191846259172183418fc6c1c13be00/5a/cd31b568/Matrix4x4.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3941d6bc191846259172183418fc6c1c13be00/6c/fc5e45a5/DrawingSettings.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../TestURP/Assets/FPSHelper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3941d6bc191846259172183418fc6c1c13be00/d9/b8087f0e/Mathf.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file:///Applications/Unity/Hub/Editor/2020.3.22f1c1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/ScrollRect.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3941d6bc191846259172183418fc6c1c13be00/5e/8dc7f7ab/ScriptableRenderContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e3b043d2da314b5489c2e8793c39c676389400/dc/dd565f4f/ScrollView.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/symj/Documents/unity_project/ShaderLearn/Assets/04-光照/LightingShader.shader" root0="SKIP_HIGHLIGHTING" />
     <setting file="file:///Applications/Unity/Hub/Editor/2020.3.22f1c1/Unity.app/Contents/CGIncludes/AutoLight.cginc" root0="SKIP_HIGHLIGHTING" />
     <setting file="file:///Applications/Unity/Hub/Editor/2020.3.22f1c1/Unity.app/Contents/CGIncludes/UnityPBSLighting.cginc" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/symj/Documents/unity_project/ShaderLearn/Assets/04-光照.meta" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="23DSLCfvBUxNmKhNuHTa5cCSp2y" />
   <component name="ProjectLevelVcsManager">
@@ -62,10 +59,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="2040">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="2040" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -88,6 +85,7 @@
       <workItem from="1641276889356" duration="20000" />
       <workItem from="1641609356809" duration="3668000" />
       <workItem from="1641783835386" duration="18594000" />
+      <workItem from="1642405895805" duration="1748000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1641267149371</created>
@@ -131,7 +129,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642073222206</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="shader graph">
+      <created>1642487503884</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1642487503884</updated>
+    </task>
+    <task id="LOCAL-00008" summary="shader graph">
+      <created>1642487516078</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1642487516078</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
@@ -157,7 +169,8 @@
     <MESSAGE value="多灯光 、、开始看不懂了" />
     <MESSAGE value="修改一下文件夹结构" />
     <MESSAGE value="aaaaaaaaa" />
-    <option name="LAST_COMMIT_MESSAGE" value="aaaaaaaaa" />
+    <MESSAGE value="shader graph" />
+    <option name="LAST_COMMIT_MESSAGE" value="shader graph" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -165,27 +178,13 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/01-矩阵/PositionTransformation.cs</url>
           <line>15</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/01-矩阵/PositionTransformation.cs" initialLine="15" containingFunctionPresentation="property 'Matrix'">
-            <startOffsets>
-              <option value="410" />
-            </startOffsets>
-            <endOffsets>
-              <option value="424" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/Assets/01-矩阵/PositionTransformation.cs" initialLine="15" containingFunctionPresentation="property 'Matrix'" />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/01-矩阵/TransformationGrid.cs</url>
           <line>79</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/01-矩阵/TransformationGrid.cs" initialLine="79" containingFunctionPresentation="method 'TransformPoint'">
-            <startOffsets>
-              <option value="2656" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2675" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/Assets/01-矩阵/TransformationGrid.cs" initialLine="79" containingFunctionPresentation="method 'TransformPoint'" />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
