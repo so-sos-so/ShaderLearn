@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="016eb9dc-d355-4fdf-ae85-58cd727a5e67" name="Changes" comment="" />
+    <list default="true" id="016eb9dc-d355-4fdf-ae85-58cd727a5e67" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ShaderLearn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ShaderLearn/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,12 +23,19 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3941d6bc191846259172183418fc6c1c13be00/5a/cd31b568/Matrix4x4.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3941d6bc191846259172183418fc6c1c13be00/6c/fc5e45a5/DrawingSettings.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3941d6bc191846259172183418fc6c1c13be00/d9/b8087f0e/Mathf.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file:///Applications/Unity/Hub/Editor/2020.3.22f1c1/Unity.app/Contents/CGIncludes/UnityShaderVariables.cginc" root0="SKIP_HIGHLIGHTING" />
     <setting file="file:///Applications/Unity/Hub/Editor/2020.3.22f1c1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/ScrollRect.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file:///Applications/Unity/Hub/Editor/2020.3.22f1c1/Unity.app/Contents/CGIncludes/UnityDeprecated.cginc" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/换装/ChangeCloth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file:///Applications/Unity/Hub/Editor/2020.3.22f1c1/Unity.app/Contents/CGIncludes/UnityLightingCommon.cginc" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3941d6bc191846259172183418fc6c1c13be00/6c/fc5e45a5/DrawingSettings.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file:///Applications/Unity/Hub/Editor/2020.3.22f1c1/Unity.app/Contents/CGIncludes/UnityCG.cginc" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3941d6bc191846259172183418fc6c1c13be00/d9/b8087f0e/Mathf.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3941d6bc191846259172183418fc6c1c13be00/5e/8dc7f7ab/ScriptableRenderContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e3b043d2da314b5489c2e8793c39c676389400/dc/dd565f4f/ScrollView.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file:///Applications/Unity/Hub/Editor/2020.3.22f1c1/Unity.app/Contents/CGIncludes/AutoLight.cginc" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file:///Applications/Unity/Hub/Editor/2020.3.22f1c1/Unity.app/Contents/CGIncludes/UnityStandardUtils.cginc" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file:///Applications/Unity/Hub/Editor/2020.3.22f1c1/Unity.app/Contents/CGIncludes/HLSLSupport.cginc" root0="SKIP_HIGHLIGHTING" />
     <setting file="file:///Applications/Unity/Hub/Editor/2020.3.22f1c1/Unity.app/Contents/CGIncludes/UnityPBSLighting.cginc" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="23DSLCfvBUxNmKhNuHTa5cCSp2y" />
@@ -46,7 +56,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="MTHome" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -86,6 +96,8 @@
       <workItem from="1641609356809" duration="3668000" />
       <workItem from="1641783835386" duration="18594000" />
       <workItem from="1642405895805" duration="1748000" />
+      <workItem from="1642493324182" duration="19512000" />
+      <workItem from="1643093176119" duration="523000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1641267149371</created>
@@ -143,7 +155,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642487516078</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="啊啊啊啊啊啊啊啊啊啊啊">
+      <created>1642670455078</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1642670455078</updated>
+    </task>
+    <task id="LOCAL-00010" summary="aaaaa">
+      <created>1642748042688</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1642748042688</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
@@ -170,7 +196,9 @@
     <MESSAGE value="修改一下文件夹结构" />
     <MESSAGE value="aaaaaaaaa" />
     <MESSAGE value="shader graph" />
-    <option name="LAST_COMMIT_MESSAGE" value="shader graph" />
+    <MESSAGE value="啊啊啊啊啊啊啊啊啊啊啊" />
+    <MESSAGE value="aaaaa" />
+    <option name="LAST_COMMIT_MESSAGE" value="aaaaa" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
